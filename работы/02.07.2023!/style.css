@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  background-color: #1a1849;
+  width: 80%;
+  height: auto;
+  padding: 10%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.menu text {
+  font-weight: bold;
+  color: #fa255d;
+  font-size: 17pt;
+}
+.menu {
+  display: flex;
+
+  justify-content: space-between;
+  font-size: 15pt;
+  align-items: center;
+}
+
+.menu nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: baseline;
+  color: white;
+}
+
+.text input[type="button"] {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #fa255d;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.text h1 {
+  font-size: 32pt;
+}
+
+.menu nav a:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #fa255d;
+  margin-top: 3px;
+  transition: width 0.4s ease-in-out;
+}
+.menu nav a:hover:after,
+a:focus:after {
+  width: 100%;
+}
+
+.menu nav {
+  display: flex;
+  gap: 50px;
+}
+
+input[type="button"] {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #fa255d;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  margin: 10%;
+}
+
+.speaker {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: baseline;
+}
+
+.text-1 h1 {
+  font-size: 28pt;
+}
+
+.text-1 text {
+  color: #fa255d;
+}
+
+ul {
+  font-size: 18pt;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+li {
+  color: #fa255d;
+}
+
+li span {
+  color: black;
+}
+
+.webinar {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.webinar h1 {
+  font-size: 32pt;
+  color: #fa255d;
+}
+
+.webinar p {
+  font-size: 16pt;
+  line-height: 2;
+  text-align: justify;
+}
+
+.webinar h3 {
+  text-align: center;
+  color: #1a1849;
+  font-size: 18pt;
+}
+@supports (-webkit-text-stroke: 1px #fa255d) {
+  .webinar input[type="button"] {
+    outline: none;
+    background-color: transparent;
+    -webkit-text-stroke: 0.3px #fa255d;
+    border: 2px solid #fa255d;
+    padding: 15px;
+    color: transparent;
+    font-size: 13pt;
+    font-weight: bold;
+  }
+}
+
+footer {
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #1a1849;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap:60px;
+}
+
+
+input[type=text],input[type=tel],input[type=email] {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #fa255d;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    .main, .speaker, footer{   
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu, .menu input[type=button]{   
+      font-size: 2vw;
+    }
+
+    iframe{
+      width:300px;
+      height: 150px;
+    }
+}

@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+body{
+    background-color: #454e57;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    padding-top: 2%;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border:none;
+    gap:40px;
+    margin-top: 20px;
+}
+
+button{
+    text-align: left;
+    padding:30px;
+    border:2px solid white;
+    outline: none;
+    background-color: transparent;
+    padding-right: 100px;
+}
+
+button:focus{
+    background-color: #00b2f0;
+    border:2px solid #00b2f0;
+}
+
+.personal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap:30px;
+}
+.list{
+    width:711px;
+    border-bottom:2px solid #00b2f0;
+}
+
+input[type=text]{
+    background-color: transparent;
+    outline: none;
+    border:none;
+    font-size:12pt;
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.city{
+    display:flex;
+    justify-content: space-between;
+}
+
+.city input[type=text]{
+    background-color: transparent;
+    outline: none;
+    border:none;
+    font-size:12pt;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    width:160px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.big{
+    width:500px;
+    margin-right: 20px;
+}
+
+textarea{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    color:rgb(160, 160, 160);
+    width:711px;
+}
+
+.personal form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+
+
+
+.skills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap:30px;
+}
+
+.buts{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=button]{
+    padding:20px;
+    padding-left:30px ;
+    padding-right: 30px;
+    border:2px solid white;
+    outline: none;
+    background-color: transparent;
+    font-size: 12pt;
+}
+
+input[type=button]:focus{
+    background-color: #00b2f0;
+    border:2px solid #00b2f0;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-evenly;
+    gap:60px;
+}
+
+.skills form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.portfolio{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap:30px;
+}
+
+.primary{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.disciplines p{
+    margin-bottom:30px;
+}
+.interest h4,p{
+    margin-bottom:30px;
+}
+
+.portfolio form{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin-bottom:50px;
+}
+
+.portfolio textarea{
+    outline:none;
+    background-color: transparent;
+    border: 1px solid rgb(160, 160, 160);
+    color:rgb(160, 160, 160);
+    width:711px;
+    height:90px;
+}
+
+input[type=submit]{
+    padding:20px;
+    background-color: #00b2f0;
+    border:2px solid #00b2f0;
+    outline: none;
+    font-size: 12pt;
+    width:180px;
+}

@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color:white;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.head{
+    margin-top: 5%;
+    margin-left: -35%;
+    display:flex;
+    align-items: center;
+}
+
+.icon{
+    border:2px solid white;
+    padding: 5px;
+    width: 45px;
+    margin-right: 150px;
+}
+
+nav{
+    display: flex;
+    color:white;
+    background-color: none;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right:80px;
+}
+
+
+a:after {
+    display: block;
+    content: ""; 
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    margin-top: 3px;
+    transition: width 0.4s ease-in-out;
+    }
+a:hover:after, a:focus:after {
+    width: 100%;
+}
+
+.head input[type=button]{
+    color:white;
+    background-color: rgb(255, 145, 0);
+    outline: none;
+    border: none;
+    padding:12px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+.social-networks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.social-networks a{
+    margin-bottom: 80px;
+}
+
+.the-main-block{
+    margin-left: -35%;
+    display: flex;
+}
+
+.texts{
+    margin-left: 10%;
+    margin-top: 7.2%;
+}
+
+.texts h1{
+    font-size: 42pt;
+    letter-spacing: 2px;
+}
+
+.texts h3{
+    font-weight: lighter;
+    margin-top: 8%;
+}
+
+.texts p{
+    margin-top: 8%;
+}
+.texts input{
+    margin-top: 33%;
+}
+
+.texts input[type=button]{
+    border: 2px solid rgb(255, 145, 0);
+    padding: 15px;
+    padding-left:45px ;
+    padding-right:45px ;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.car-img{
+    display: block;
+    float:right;
+    height: 748px;
+    width:70%;
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+
+.not-img{
+    display: block;
+    float:left;
+    height: 748px;
+    width:30%;
+    background-color: rgb(44, 44, 44);
+}
+
+
+section{
+    background-color:rgb(44, 44, 44);
+}
+.section-1{
+    width: 100%;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: 19%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cars{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.block-2{
+    margin-top: 1%;
+}
+
+.specials{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 13%;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.specials input[type=button]{
+    border: 2px solid rgb(255, 145, 0);
+    padding: 15px;
+    padding-left:45px ;
+    padding-right:45px ;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.car input[type=button]{
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    color:rgb(255, 145, 0);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.car{
+    display:flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+
+.suv{
+    display: block;
+    float:left;
+}
+
+textarea{
+    border: 1px solid white;
+    padding: 15px;
+    padding-right:45px ;
+    background-color: transparent;
+    height:70px;
+}
+
+.section-2{
+    width: 100%;
+    height: auto;
+    padding-bottom: 15%;
+}
+
+footer{
+    background-color:rgb(44, 44, 44);
+    width: 100%;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.fiches{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.l_texts{
+    display:flex;
+    flex-direction:column;
+    float:left;
+}
+
+.luxury{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.big_icon{
+    border:2px solid white;
+    padding: 10px;
+    width: 110px;
+    font-size: 30pt;
+}
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:-35px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+.f_text{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.f_message{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-left:10px;
+}
+form input[type=text]{
+    border: 1px solid white;
+    padding: 15px;
+    padding-right:45px ;
+    background-color: transparent;
+    color:white;
+}
+
+form input[type=submit]{
+    border:transparent;
+    padding: 15px;
+    padding-right:45px;
+    padding-left:45px;
+    background-color: rgb(255, 145, 0);
+    color:white;
+}
+.miami input[type=button]{
+    border: transparent;
+    background-color: transparent;
+    color:rgb(255, 145, 0);
+    font-weight: bold;
+
+}

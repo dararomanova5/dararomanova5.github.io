@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(41, 41, 41);
+}
+
+
+.main-block{
+    display: flex;
+    flex-direction:column;
+    margin:50px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-bottom:15px;
+}
+
+header button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+}
+.b{
+    display: flex;
+    align-items: center;
+}
+
+.second-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photos{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    padding:5%;
+    padding-top: 0;
+
+}
+
+.main-photo{
+    position: block;
+}
+
+.px{
+    z-index: 1;
+    position: relative;
+}
+
+
+.arrows{
+    z-index: 2;
+    position: relative;
+    top:40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+}
+
+.small-photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    padding:5%;
+    padding-top: 3%;
+    border-left: 1px solid grey;
+    gap:20px;
+}
+
+.price{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+
+.price h2{
+    color:grey;
+    text-decoration: line-through;
+}
+
+.price h1{
+    color:#7e205e;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color:grey;
+}
+
+a:after {
+    display: block;
+    content: ""; 
+    height: 2px;
+    width: 0%;
+    background-color: #7e205e;
+    margin-top: 3px;
+    transition: width 0.4s ease-in-out;
+    }
+a:hover:after, a:focus:after {
+    width: 100%;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+}
+.colors{
+    display: flex;
+    justify-content: space-between;
+}
+.sizes{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+}
+
+.sizes input[type=button]{
+    outline:none;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12pt;
+    background-color: transparent;
+    color: black;
+}
+.sizes input[type=button]:focus{
+    border: 1px solid #7e205e;
+    color: white;
+    background-color: #7e205e;
+}
+
+.size{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.color{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.colors{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+}
+
+.colors button{
+    height:30px;
+    width:30px;
+    border-radius: 100%;
+    border:transparent;
+}
+
+.yellow{
+    background-color: #ff8d1a;
+}
+
+.pink{
+    background-color: #8e005f;
+}
+
+.purple{
+    background-color: #471b8e;
+}
+
+.red{
+    background-color: #cf120e;
+}
+
+.colors button:focus{
+    border:2px solid white;
+    outline:1px solid grey;
+    
+}
+
+.but{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+    margin-top: 40px;
+
+}
+
+.but input[type=button]{
+    outline:none;
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 12pt;
+    background-color: transparent;
+    color: black;
+}
+
+.but input[type=button]:focus{
+    background-color: #8e005f;
+    color: white;
+    border: 2px solid #8e005f;
+}

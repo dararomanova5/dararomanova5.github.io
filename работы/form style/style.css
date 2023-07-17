@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("./images/background.jpeg");
+  background-size: cover;
+}
+.parent{
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  margin-top: 15%;
+}
+.box-left{
+  width: 40%;
+  height: auto;
+  background: rgba(68, 121, 236, 0.5);
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+img{
+  width: 40%;
+}
+ul{
+  list-style-type:circle;
+  font-size: 14pt;
+}
+.box-top{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+.box-right{
+  width: 60%;
+  height: auto;
+  background-color: white;
+  padding: 20px;
+  color: gray;
+}
+.row{
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+input[type=text],input[type=email],input[type=password]{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 12px 14px;
+  margin-top: 3%;
+  outline: none;
+}
+#row-first,#row-last{
+  display: flex;
+  justify-content: space-between;
+}
+b{
+  font-size: 20pt;
+  color: rgb(149, 189, 253);
+}
+#row-last{
+  margin-top: 5%;
+}
+p{
+  align-self:flex-end;
+}
+input[type=button]{
+  width: 20%;
+  height: 50px;
+  border: 2px double rgb(217, 231, 255);
+  background-color: rgb(149, 189, 253);
+  color: white;
+  border-radius:30px;
+}
+@media screen and (max-width: 600px) {
+.parent{
+  flex-direction: column;
+}
+.box-left{
+  width: 60%;
+}
+.box-left,.box-right{
+  margin: auto;
+  border: thin solid #000000;
+}
+}
+@media screen and (max-width: 900px){
+.row{
+  flex-direction: column;
+}
+p{
+  margin: auto;
+}
+input[type=button]{
+  width: 40%;
+  margin: auto;
+}
+}
